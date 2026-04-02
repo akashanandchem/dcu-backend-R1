@@ -1,0 +1,2 @@
+39PI175_AVG,drumOutPress_AVG,chargePress_AVG
+"(39PI175_AVG*max(8,cycleTime_hrs)+30*max(min(6,14-cycleTime_hrs),0))/(max(14,cycleTime_hrs))","(drumOutPress_AVG*max(8,cycleTime_hrs)+30*max(min(6,14-cycleTime_hrs),0))/(max(14,cycleTime_hrs))","(chargePress_AVG*max(8,cycleTime_hrs)+30*max(min(6,14-cycleTime_hrs),0))/(max(14,cycleTime_hrs))"

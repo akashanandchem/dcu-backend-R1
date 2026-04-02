@@ -1,0 +1,2 @@
+avgDataFrequency,stdDataFrequency,calcFreq_inMins,dataPullPeriod,hgiPredictions,recoPredictions,crudeSlatePrediction,cycleTimeTagAvailable,functionName,modelName,pointsToRun,minLastPoints,initialCalcSkipTime,SOR_time,OutSkipSpalling,crudeDelayTime,tagCorrection
+5,30,5,48,TRUE,TRUE,TRUE,FALSE,HgiPred,hgi_model,1,5,1,1,TRUE,6,FALSE

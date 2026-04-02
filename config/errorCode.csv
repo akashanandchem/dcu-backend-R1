@@ -1,0 +1,10 @@
+Errors,Value,Note
+offline,91,Drums offline
+nan_data,92,Tags read bad value
+stuck,93,Tags are stuck
+limit_breach,94,Tags value out of bound
+status_tags_faulty,95,Drum Status Tags Faulty Reading
+unknown_error,99,Model Unknown Error
+initial_delay,90,Calculation starts after 1hr of drum time
+spall,96,Drums on spall
+shutdown,97,Plant trip/shutdown
