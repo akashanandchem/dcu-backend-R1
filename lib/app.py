@@ -26,6 +26,13 @@ import numpy as np
 import joblib
 import random
 
+from pathlib import Path
+ 
+ 
+BASE_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = BASE_DIR.parent
+CSV_PATH = PROJECT_ROOT / "output" / "output.csv"
+
 app = FastAPI()
 
 app.add_middleware(
@@ -51,7 +58,7 @@ def run_model():
 
         # outputFileName = os.path.join(current_dir, "output", "output.csv")
         # df = pd.read_csv(outputFileName)
-        df = pd.read_csv(r"output\output.csv")
+        df = pd.read_csv(CSV_PATH)
         # df = pd.read_csv(r"output.csv")
         df = df.fillna("")
 
