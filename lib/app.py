@@ -9,10 +9,11 @@ import sys
 import os
 
 
-#sys.path.append(r"C:\Users\aanand\Downloads\HGI\HGI-One yr\lib")
+# sys.path.append(r"C:\Users\aanand\Downloads\HGI\HGI-One yr\lib")
 
 current_dir = os.path.dirname(os.path.dirname(__file__))
-sys.path.append(current_dir)
+#sys.path.append(current_dir)
+sys.path.append(os.path.join(current_dir, "lib"))
 
 
 
@@ -44,12 +45,15 @@ def home():
 def run_model():
     try:
         # module_hgi()  # keep commented for now
-
-        outputFileName = os.path.join(current_dir, "output", "output.csv")
-        df = pd.read_csv(outputFileName)
-        #df = pd.read_csv(r"output\output.csv")
-        # df = pd.read_csv(r"output.csv")
+        
+        # df = pd.read_csv(r"C:\Users\aanand\Downloads\HGI\HGI-One yr\output\output.csv")
         # df = df.fillna("")
+
+        # outputFileName = os.path.join(current_dir, "output", "output.csv")
+        # df = pd.read_csv(outputFileName)
+        df = pd.read_csv(r"output\output.csv")
+        # df = pd.read_csv(r"output.csv")
+        df = df.fillna("")
 
         # 👉 Convert time column
         df["Time"] = pd.to_datetime(df["Time"])
