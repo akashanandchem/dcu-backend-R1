@@ -1,7 +1,7 @@
 resultTag,inputTag,condition,status,cycleTime_hrsTag,avgTags,specialTags,filter,tags,min_val,max_val,StdDevException,drumNames,drumStatusTags,drumStatusTagsValue,drumStatusTagsMin,drumStatusTagsMax,spallTags,spallTagsMinLimit,spallTagsMaxLimit,shutdown_Tag,shutdown_Min,shutdown_Max,lastRunsTags,modelTags,modelTags_North,modelTags_South,nanException,Constants,Values,Comments,alarmReco_number,alarmRecoType,alarmReco,alarmCond,HgiLess,HgiMore,HgiInBand,HgiPredDelta,SpallCounterThreshold
 NorthIndex,onlineDrum,== 'North',1,DrumRunTime.HOL,39DI348,39PI175,Common,39XA152,0,1,39XA151,North,39XA152,1,0,1,39FC225,1000,20000,39FI347,1000,100000,Time,DrumIndex,DrumIndex,DrumIndex,DrumIndex,lastPredPoint,3,,3,COT,0,HgiLess,2,1,0,1,10
 NorthIndex,onlineDrum,== 'South',0,,39FI123,drumOutPress,Common,39XA151,0,1,39XA152,South,39XA151,1,0,1,39FC226,1000,20000,,,,onlineDrum,39FI347,39FI347,39FI347,39FI347,,,,,Quench,1,HgiMore,1,2,0,,
-SouthIndex,onlineDrum,== 'South',1,,39FI347,chargePress,North,39FI347,2000,23000,39HC131.S,,,,,,,,,,,,cycleTime_hrs,39FI123,39FI123,39FI123,39DI348,,,,,VaccumTower,2,HgiInBand,0,0,0,,
+SouthIndex,onlineDrum,== 'South',1,,39FI347,chargePress,North,39FI347,0,23000,39HC131.S,,,,,,,,,,,,cycleTime_hrs,39FI123,39FI123,39FI123,39DI348,,,,,VaccumTower,2,HgiInBand,0,0,0,,
 SouthIndex,onlineDrum,== 'North',0,,39PI175,,North,39FI123,2000,26000,39DI348,,,,,,,,,,,,Hgi_Pred_hour0,InletTemp,39TI199,39TI203,,,,,,,,,,,,,
 ,,,,,39FC145,,North,39TI199,700,1000,13DI189,,,,,,,,,,,,,39DI348,39DI348,39DI348,,,,,,,,,,,,,
 ,,,,,13PI335,,North,39DI348,-10,30,Heavy_BPD,,,,,,,,,,,,,39TC198,39TC198,39TC198,,,,,,,,,,,,,
@@ -12,7 +12,7 @@ SouthIndex,onlineDrum,== 'North',0,,39PI175,,North,39FI123,2000,26000,39DI348,,,
 ,,,,,39TI127,,South,39TI203,700,1000,Medium_TPD,,,,,,,,,,,,,13PI335,13PI335,13PI335,,,,,,,,,,,,,
 ,,,,,39TI128,,South,39DI348,-10,30,Sulphur,,,,,,,,,,,,,13TI139A,13TI139A,13TI139A,,,,,,,,,,,,,
 ,,,,,39TI169,,South,39PI995A,10,50,Nickel,,,,,,,,,,,,,13TI139B,13TI139B,13TI139B,,,,,,,,,,,,,
-,,,,,39TI170,,South,39PI181,10,70,Vanadium,,,,,,,,,,,,,13TC172,13TC172,13TC172,,,,,,,,,,,,,
+,,,,,39TI170,,South,39PI181,10,90,Vanadium,,,,,,,,,,,,,13TC172,13TC172,13TC172,,,,,,,,,,,,,
 ,,,,,InletTemp,,,,,,Eff_API,,,,,,,,,,,,,13TI342,13TI342,13TI342,,,,,,,,,,,,,
 ,,,,,drumOutPress,,,,,,Viscocity,,,,,,,,,,,,,39TI127,39TI127,39TI127,,,,,,,,,,,,,
 ,,,,,drumOutTemp,,,,,,13CSAPIG.B,,,,,,,,,,,,,39TI128,39TI128,39TI128,,,,,,,,,,,,,
