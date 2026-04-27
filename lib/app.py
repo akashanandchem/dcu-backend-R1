@@ -29,7 +29,8 @@ RUNLENGTH_FALLBACK_PATH = PROJECT_ROOT / "runlength_dummy.csv"
 
 # ── CONFIG FILES ─────────────────────────────────────────────────────────────
 # SET THIS to your actual config folder (the folder shown in your screenshot):
-CONFIG_DIR = Path(r"D:\dcu-ml-api\HGI\HGI-One yr\config")
+#CONFIG_DIR = Path(r"D:\dcu-ml-api\HGI\HGI-One yr\config")
+CONFIG_DIR = PROJECT_ROOT / "config"
 
 # All files are .csv  (xlsx also supported if ever migrated)
 CONFIG_FILES = {
